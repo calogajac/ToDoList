@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 
 public class Buttons extends Activity {
@@ -35,5 +37,15 @@ public class Buttons extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void OnButtonClickCaleb(View view){
+        TextView textCaleb = (TextView)findViewById(R.id.textView);
+        textCaleb.setText("Caleb");
+    }
+
+    public void OnButtonClickAmanda(View view){
+        TextView textAmanda = (TextView)findViewById(R.id.textView);
+        textAmanda.setText("Amanda");
     }
 }
