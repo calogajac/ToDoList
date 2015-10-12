@@ -30,4 +30,14 @@
         android:layout_marginTop="21dp"
         android:onClick="OnButtonClickAmanda" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Christian&apos;s Button"
+        android:id="@+id/buttonChristian"
+        android:layout_below="@+id/buttonAmanda"
+        android:layout_alignStart="@+id/buttonAmanda"
+        android:layout_marginTop="26dp"
+        android:onClick="OnButtonClickChristian" />
+
 </RelativeLayout>

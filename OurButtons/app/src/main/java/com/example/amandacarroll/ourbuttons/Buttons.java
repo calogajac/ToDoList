@@ -48,4 +48,9 @@ public class Buttons extends Activity {
         TextView textAmanda = (TextView)findViewById(R.id.textView);
         textAmanda.setText("Amanda");
     }
+
+    public void OnButtonClickChristian(View view){
+        TextView textChristian = (TextView)findViewById(R.id.textView);
+        textChristian.setText("Christian");
+    }
 }
