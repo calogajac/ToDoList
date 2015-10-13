@@ -40,4 +40,15 @@
         android:layout_marginTop="26dp"
         android:onClick="OnButtonClickChristian" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Josh&apos;s Button"
+        android:id="@+id/buttonJosh"
+        android:layout_below="@+id/buttonChristian"
+        android:layout_alignEnd="@+id/buttonChristian"
+        android:layout_marginTop="34dp"
+        android:layout_alignStart="@+id/buttonChristian"
+        android:onClick="OnButtonClickJosh" />
+
 </RelativeLayout>
