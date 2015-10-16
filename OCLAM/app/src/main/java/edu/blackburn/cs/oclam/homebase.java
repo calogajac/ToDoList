@@ -7,11 +7,16 @@ import android.view.MenuItem;
 
 
 public class homebase extends Activity {
+    Task myFirstTask;
+    Task mySecondTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homebase);
+
+        myFirstTask = new Task("Eat Dog Food","I'm gonna eat dog food later...","Misc.",false);
+        mySecondTask = new Task("Study","I'm gonna study a book or something","School",false);
     }
 
     @Override
